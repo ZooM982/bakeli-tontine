@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/bakeli-tontine/static/css/main.4099fe30.css",
-    "main.js": "/bakeli-tontine/static/js/main.8e0ac3c1.js",
+    "main.css": "/bakeli-tontine/static/css/main.dec37b06.css",
+    "main.js": "/bakeli-tontine/static/js/main.b67c5866.js",
     "static/js/453.6ed67569.chunk.js": "/bakeli-tontine/static/js/453.6ed67569.chunk.js",
+    "static/media/forgotpwrd.png": "/bakeli-tontine/static/media/forgotpwrd.c474781bc22fa300c310.png",
     "static/media/signupImg.png": "/bakeli-tontine/static/media/signupImg.fd743716a5df41542a07.png",
     "static/media/loginImg.png": "/bakeli-tontine/static/media/loginImg.46a8c41f3407128635b9.png",
     "index.html": "/bakeli-tontine/index.html",
-    "main.4099fe30.css.map": "/bakeli-tontine/static/css/main.4099fe30.css.map",
-    "main.8e0ac3c1.js.map": "/bakeli-tontine/static/js/main.8e0ac3c1.js.map",
+    "main.dec37b06.css.map": "/bakeli-tontine/static/css/main.dec37b06.css.map",
+    "main.b67c5866.js.map": "/bakeli-tontine/static/js/main.b67c5866.js.map",
     "453.6ed67569.chunk.js.map": "/bakeli-tontine/static/js/453.6ed67569.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4099fe30.css",
-    "static/js/main.8e0ac3c1.js"
+    "static/css/main.dec37b06.css",
+    "static/js/main.b67c5866.js"
   ]
 }
