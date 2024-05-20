@@ -117,7 +117,7 @@ const SignUp = () => {
                         <button type="submit" className="btn btn-submit" >S'inscrire</button>
 
                         <div className="mb-1 signIn">
-                            <p>Vous avez déjà un compte, <a onClick={() => navigate('/SignIn')}>connectez-vous!</a> </p>
+                            <p>Vous avez déjà un compte, <a onClick={() => navigate('/')}>connectez-vous!</a> </p>
                         </div>
                     </form>
                 </div>
