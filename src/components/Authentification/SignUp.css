@@ -58,6 +58,7 @@
     text-decoration: none;
     color: #000;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .right-sideUp form h4 {

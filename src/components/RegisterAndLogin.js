@@ -3,11 +3,10 @@ import SignUp from "./Authentification/SignUp";
 
 
 function RegisterAndLogin() {
-   
+
     return (
         <div className="App">
-            <SignIn />
-            <SignUp />
+           <SignUp />
         </div>
     );
 }

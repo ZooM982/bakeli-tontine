@@ -37,6 +37,7 @@
   text-decoration: none;
   color: #000;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .right-sideIn form h4 {

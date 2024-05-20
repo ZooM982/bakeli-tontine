@@ -3,7 +3,8 @@ import { getFirestore, doc, getDoc } from "firebase/firestore";
 import React, { useState } from "react";
 import { auth } from "../FirebaseConfig";
 import loginImg from "../../images/loginImg.png"
-import '../Authentification/SignIn.css';
+import '../Authentification/SignIn.css'
+import { useNavigate } from 'react-router-dom';
 
 const SignIn = () => {
 
@@ -11,6 +12,10 @@ const SignIn = () => {
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+
+    const navigate = useNavigate();
+
+
 
     const signIn = (e) => {
         e.preventDefault();
@@ -35,7 +40,9 @@ const SignIn = () => {
                 console.log(error.code);
                 console.log(error.message);
             })
+
     };
+
 
     return (
         <div className="container-fluid">
@@ -59,12 +66,12 @@ const SignIn = () => {
                         </div>
 
                         <div className="mb-3 forget-password">
-                            <a className="my-3" href="...">Mot de passe oublié ?</a>
+                            <a className="my-3" onClick={() => navigate('/ForgotPassword')}>Mot de passe oublié ?</a>
                         </div>
                         <button type="submit" className="btn btn-submit" >Connexion</button>
 
                         <div className="mb-3 signIn">
-                            <p>Vous n'avez pas de compte, <a href="...">inscrivez-vous!</a> </p>
+                            <p>Vous n'avez pas de compte, <a onClick={() => navigate('/SignUp')}>inscrivez-vous!</a> </p>
                         </div>
                     </form>
                 </div>
