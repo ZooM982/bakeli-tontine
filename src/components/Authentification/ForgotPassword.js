@@ -1,7 +1,8 @@
 import { sendPasswordResetEmail } from "firebase/auth";
 import React from "react";
-import { auth } from "./FirebaseConfig";
+import { auth } from "../FirebaseConfig";
 import { useNavigate } from "react-router-dom";
+import "../Authentification/ForgotPassword.css"
 
 function ForgotPassword(){
     const history = useNavigate();
@@ -20,8 +21,8 @@ function ForgotPassword(){
         <div className="App">
             <h1>Forgot Password</h1>
             <form onSubmit={(e)=>handleSubmit(e)}>
-                <input name="email" /><br/><br/>
-                <button>Reset</button>
+                <input name="email" placeholder="Entrer votre adresse mail" /><br/><br/>
+                <button type="submit" className="btn">Reset</button>
             </form>
         </div>
     )
