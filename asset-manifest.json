@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/bakeli-tontine/static/css/main.86e767d4.css",
-    "main.js": "/bakeli-tontine/static/js/main.e15f5991.js",
-    "static/js/453.6ed67569.chunk.js": "/bakeli-tontine/static/js/453.6ed67569.chunk.js",
-    "static/media/money-management (2).png": "/bakeli-tontine/static/media/money-management (2).b2d1489a1de7f23a1b12.png",
-    "static/media/money-management.png": "/bakeli-tontine/static/media/money-management.ebf6da387464abbfd7de.png",
-    "static/media/forgotpwrd.png": "/bakeli-tontine/static/media/forgotpwrd.c474781bc22fa300c310.png",
-    "static/media/signupImg.png": "/bakeli-tontine/static/media/signupImg.fd743716a5df41542a07.png",
-    "static/media/loginImg.png": "/bakeli-tontine/static/media/loginImg.46a8c41f3407128635b9.png",
-    "static/media/panneau-stop.png": "/bakeli-tontine/static/media/panneau-stop.1331bea0a80bb3bdd05b.png",
-    "static/media/panneau-stop (1).png": "/bakeli-tontine/static/media/panneau-stop (1).18ace951ee30b55f9bc3.png",
-    "static/media/utilisateur.png": "/bakeli-tontine/static/media/utilisateur.1754a828af6f192c968f.png",
-    "static/media/cloche.png": "/bakeli-tontine/static/media/cloche.5846d4b1994ad4088108.png",
-    "index.html": "/bakeli-tontine/index.html",
-    "main.86e767d4.css.map": "/bakeli-tontine/static/css/main.86e767d4.css.map",
-    "main.e15f5991.js.map": "/bakeli-tontine/static/js/main.e15f5991.js.map",
-    "453.6ed67569.chunk.js.map": "/bakeli-tontine/static/js/453.6ed67569.chunk.js.map"
+    "main.css": "/bakeli-tontine/SignIn/static/css/main.86e767d4.css",
+    "main.js": "/bakeli-tontine/SignIn/static/js/main.f489dad8.js",
+    "static/js/453.6ed67569.chunk.js": "/bakeli-tontine/SignIn/static/js/453.6ed67569.chunk.js",
+    "static/media/money-management (2).png": "/bakeli-tontine/SignIn/static/media/money-management (2).b2d1489a1de7f23a1b12.png",
+    "static/media/money-management.png": "/bakeli-tontine/SignIn/static/media/money-management.ebf6da387464abbfd7de.png",
+    "static/media/forgotpwrd.png": "/bakeli-tontine/SignIn/static/media/forgotpwrd.c474781bc22fa300c310.png",
+    "static/media/signupImg.png": "/bakeli-tontine/SignIn/static/media/signupImg.fd743716a5df41542a07.png",
+    "static/media/loginImg.png": "/bakeli-tontine/SignIn/static/media/loginImg.46a8c41f3407128635b9.png",
+    "static/media/panneau-stop.png": "/bakeli-tontine/SignIn/static/media/panneau-stop.1331bea0a80bb3bdd05b.png",
+    "static/media/panneau-stop (1).png": "/bakeli-tontine/SignIn/static/media/panneau-stop (1).18ace951ee30b55f9bc3.png",
+    "static/media/utilisateur.png": "/bakeli-tontine/SignIn/static/media/utilisateur.1754a828af6f192c968f.png",
+    "static/media/cloche.png": "/bakeli-tontine/SignIn/static/media/cloche.5846d4b1994ad4088108.png",
+    "index.html": "/bakeli-tontine/SignIn/index.html",
+    "main.86e767d4.css.map": "/bakeli-tontine/SignIn/static/css/main.86e767d4.css.map",
+    "main.f489dad8.js.map": "/bakeli-tontine/SignIn/static/js/main.f489dad8.js.map",
+    "453.6ed67569.chunk.js.map": "/bakeli-tontine/SignIn/static/js/453.6ed67569.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86e767d4.css",
-    "static/js/main.e15f5991.js"
+    "static/js/main.f489dad8.js"
   ]
 }
