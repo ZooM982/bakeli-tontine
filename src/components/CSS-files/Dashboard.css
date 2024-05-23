@@ -1,0 +1,153 @@
+.dash {
+    width: 95%;
+    margin: 90px auto auto;
+    display: flex;
+}
+
+.dash-left {
+    width: 60%;
+}
+
+.dash-right {
+    width: 40%;
+}
+
+.dash-left-up .card {
+    width: 47%;
+    height: 120px;
+    margin: 50px auto;
+    font-size: 15px;
+    font-weight: 600;
+    color: #224957;
+    padding: 10px;
+    box-shadow: 0px 5px 5px gray;
+}
+
+.dash-right-up .card {
+    width: 100%;
+    height: 120px;
+    margin: 50px auto;
+    font-size: 15px;
+    font-weight: 600;
+    color: #224957;
+    padding: 10px;
+    box-shadow: 0px 5px 5px gray;
+    display: flex;
+}
+
+
+.left-card {
+    width: 25%;
+    height: 100%;
+    background-color: #edfcf5;
+    border-radius: 20px;
+}
+
+.left-card img {
+    width: 80%;
+    margin: 10px;
+}
+
+.right-card {
+    width: 67%;
+    margin: -70px 0px 20px 110px ;
+}
+.right-card p{
+    margin-top: -20px;
+}
+
+.dash-left-down .card {
+    border-radius: 20px;
+}
+
+.dash-left-down h3 {
+    margin-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+.dash-right-down h3 {
+    margin-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+.dash-right-down .card {
+    border-radius: 20px;
+}
+
+.dash-left-down .card thead {
+    background-color: #20df7f;
+    border-radius: 20px !important;
+    height: 20px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.dash-left-down .card thead th {
+    text-align: left;
+}
+
+.dash-right-down .card thead th {
+    text-align: left;
+}
+
+.dash-right-down .card thead {
+    background-color: #20df7f;
+    border-radius: 20px;
+    height: 20px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.dash-left-down .card td {
+    padding: 15px;
+    padding-left: 25px;
+    font-size: 13px;
+}
+
+.dash-right-down .card td {
+    padding: 15px;
+    padding-left: 25px;
+    font-size: 13px;
+}
+
+.dash-right-down .card .progress {
+    display: flex;
+    margin-left: -30px;
+}
+
+.card-head {
+    background-color: #20df7f;
+    padding: 10px 25px;
+    font-weight: 700;
+    height: 40px;
+    font-size: 14px;
+}
+
+.dash-right-middle .card-body img {
+    width: 95%;
+    margin: 25px auto;
+}
+
+.stast-colors {
+    display: flex;
+    margin: auto;
+    font-size: 13px;
+}
+
+.stast-colors-1 {
+    border-left: 35px solid #20df7f;
+}
+
+.stast-colors-2 {
+    border-left: 35px solid #224957;
+}
+
+.stast-colors-3 {
+    border-left: 35px solid #ffa8a7;
+}
+
+.stast-colors-4 {
+    border-left: 35px solid #fedebc;
+}

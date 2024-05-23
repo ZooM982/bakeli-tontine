@@ -24,6 +24,7 @@ const SignUp = () => {
     const [password, setPassword] = useState("");
 
     const navigate = useNavigate();
+    const history = useNavigate();
 
 
 
@@ -43,6 +44,7 @@ const SignUp = () => {
                     email: email,
                     password: password
                 });
+                history("/SignIn");
             })
             .catch((error) => {
                 alert(error.message);

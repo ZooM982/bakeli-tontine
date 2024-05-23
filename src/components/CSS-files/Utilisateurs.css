@@ -1,0 +1,134 @@
+.users {
+    width: 95%;
+    margin: 90px auto auto;
+}
+
+.users .nav-pill {
+    display: inline-flex;
+    width: 90%;
+    margin: auto;
+}
+
+.users .nav-item {
+    width: 30%;
+    height: 120px;
+    margin: 30px 0 auto 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #224957;
+    box-shadow: 0px 5px 5px gray;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.users .nav-item  img {
+    width: 17px;
+    height: auto;
+    margin-left: 5px;
+}
+
+.users .nav-item:focus {
+    background-color: #20df7f;
+    color: #fff;
+}
+
+.users .nav-item button:focus {
+    background-color: #20df7f;
+    color: #fff;
+}
+
+.users .nav-item button {
+    width: 100%;
+    height: 100%;
+    color: #224957;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0px 5px 5px gray;
+    border-radius: 20px;
+}
+
+
+.users .nav-item button h4 {
+    margin-top: -10px;
+    font-weight: 700;
+}
+
+.users .nav-item button p {
+    margin-top: -20px;
+    font-weight: 500 !important;
+}
+
+.users .card {
+    margin-top: 50px;
+    margin: 40px auto;
+}
+
+.users .Actifs {
+    width: 910px;
+    margin-left: -100px;
+}
+
+.users .Total {
+    width: 910px;
+    margin-left: -100px;
+}
+
+.users .card thead {
+    background-color: #20df7f;
+    border-radius: 20px;
+    height: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.users .tab-content {
+    width: 70%;
+    margin: auto;
+}
+
+
+.users  .card td {
+    padding: 15px;
+    padding-left: 25px;
+    font-size: 16px;
+}
+
+.users  .card .progress {
+    display: flex;
+    margin-left: -30px;
+}
+
+.statut {
+    color: #ff3333;
+    font-weight: 600;
+}
+
+.Add-div {
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.Ajout {
+    background-color: #224957;
+    width: 11%;
+    height: 40px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.users  .card img {
+    width: 20px;
+    height: auto;
+}
+
+.icons-btn {
+    display: flex;
+}
+
+.icons-btn button {
+    width: 20px;
+}
+

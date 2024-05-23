@@ -1,0 +1,34 @@
+.navbar{
+    width: 82%;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0px 5px 5px gray;
+    position: fixed;
+    z-index: 1;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.navbar img{
+    width: 35px;
+    height: auto;
+}
+.navbar span{
+    background-color: #20df7f;
+    margin-top: 15px;
+    margin-left: -8px;
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+}
+
+.navbar .user-profil{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    background-color: #20df7f;
+}

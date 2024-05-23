@@ -1,0 +1,47 @@
+.cotisationUp {
+    display: flex;
+    width: 80%;
+    margin: 80px auto auto;
+}
+
+.cotisationUp .card {
+    width: 30%;
+    height: 120px;
+    margin: 50px auto;
+    font-size: 15px;
+    font-weight: 600;
+    color: #224957;
+    padding: 10px;
+    box-shadow: 0px 5px 5px gray;
+}
+
+.cotisationUp .card h3 {
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+.cotisationDown {
+    width: 75%;
+    margin: auto;
+}
+
+.cotisationDown .card img {
+    width: 20px;
+    height: auto;
+}
+
+.cotisationDown table {
+    padding: 20px;
+    border-radius: 10px !important;
+}
+
+.cotisationDown table thead {
+    background-color: #20df7f;
+    height: 70px;
+    box-shadow: 0px 5px 5px gray;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cotisationDown td,th {
+    padding: 8px 30px;
+}

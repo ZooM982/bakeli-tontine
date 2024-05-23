@@ -1,11 +1,16 @@
 import { sendPasswordResetEmail } from "firebase/auth";
-import React from "react";
+import React, { useState } from "react";
 import { auth } from "../FirebaseConfig";
 import { useNavigate } from "react-router-dom";
 import "../Authentification/ForgotPassword.css"
 import ForgotImg from "../../images/forgotpwrd.png"
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 function ForgotPassword() {
+    const [show, setShow] = useState(false)
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     const history = useNavigate();
 
     const handleSubmit = async (e) => {
@@ -29,10 +34,19 @@ function ForgotPassword() {
                     <p>Pour réinitialiser votre mot de passe entrez votre e-mail ou votre numéro de téléphone</p>
                     <form onSubmit={(e) => handleSubmit(e)}>
                         <input name="email" placeholder="N° de téléphone ou e-mail" /><br /><br />
-                        <button type="submit" className="btn-forget">Envoyer</button>
+                        <button type="submit"  onClick={handleShow} className="btn-forget">Envoyer</button>
                     </form>
                 </div>
             </div>
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header className="d-grid">
+                    <h1 className="d-flex justify-content-between">S'inscrire  <Button onClick={handleClose}>X</Button></h1>
+                    <p>c'est rapide et facile</p>
+                </Modal.Header>
+                <Modal.Body>
+
+                </Modal.Body>
+            </Modal>
         </div>
     )
 }

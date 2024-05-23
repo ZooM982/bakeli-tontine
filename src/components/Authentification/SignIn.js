@@ -15,6 +15,7 @@ const SignIn = () => {
     const [password, setPassword] = useState("");
 
     const navigate = useNavigate();
+     const history = useNavigate();
 
 
 
@@ -32,9 +33,8 @@ const SignIn = () => {
                         email: docSnap.data().email
                     }))
                     sessionStorage.setItem("user-creds", JSON.stringify(credentials.user));
-
-
                 }
+                history("/home");
             })
             .catch((error) => {
                 alert(error.message);
@@ -46,12 +46,12 @@ const SignIn = () => {
 
 
     return (
-        <div className="container-fluid">
-            <div className="row sibg">
+        <div className="container-fluid sibg">
+            <div className="row">
                 <div className="left-sideIn">
                     <img src={loginImg} alt="login iamge" />
                 </div>
-                <div className=" right-sideIn">
+                <div className="mx-auto right-sideIn">
                     <h2>Bienvenue sur Bakéli-tontine</h2>
                     <form id="loginForm" onSubmit={signIn} className="bg-light p-3 rounded-3 text-center">
 
